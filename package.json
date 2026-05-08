@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "biome check .",
     "format": "biome format --write .",
-    "check": "biome check --write ."
+    "check": "biome check --write .",
+    "collect:candidates": "node scripts/collect-candidates.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.105.3",
